@@ -28,3 +28,21 @@ print("Scalar multiplication using python")
 print("Scalar: ", scalar)
 print("Vector: ", vector_a)
 print("Scalar Multiplication: ", vector_scaled)
+
+# dot product
+dot_product = np.dot(vector_a, vector_b)
+
+# magnitude of vector
+magnitude_a = np.linalg.norm(vector_a)
+magnitude_b = np.linalg.norm(vector_b)
+
+# cosine of the angle between vectors
+cos_theta = dot_product / (magnitude_a * magnitude_b)
+
+print("Dot product and its properties using python")
+print("Vector A: ", vector_a)
+print("Vector B: ", vector_b)
+print("Dot product (A . B): ", dot_product)
+print("Magnitude of A: ", magnitude_a)
+print("Magnitude of B: ", magnitude_b)
+print("Cosine of the angle between vectors A and B: ", cos_theta)
