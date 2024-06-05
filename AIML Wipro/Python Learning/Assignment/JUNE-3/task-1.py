@@ -1,3 +1,5 @@
+# Difference between Sums of Odd and Even Digits in a given number(use functions)
+
 def sum_of_odd_digits(number):
     odd_sum = 0
     while number > 0:

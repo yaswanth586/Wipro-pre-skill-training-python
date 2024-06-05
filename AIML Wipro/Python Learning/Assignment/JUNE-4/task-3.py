@@ -1,3 +1,9 @@
+# Calculus with SciPy
+#
+# Define the function f(x) = x^3 + 2x^2 + x + 1.
+# Compute the first and second derivatives of f(x) at x = 1.
+# Compute the definite integral of f(x) from x = 0 to x = 2.
+
 from scipy.integrate import quad
 from scipy.misc import derivative
 

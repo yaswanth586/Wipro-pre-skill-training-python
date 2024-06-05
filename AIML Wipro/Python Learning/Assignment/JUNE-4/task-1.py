@@ -1,3 +1,14 @@
+# Matrix Operations with NumPy
+#
+# Create two 3x3 matrices A and B with random integer values between 1 and 10.
+# Compute the following:
+# The sum of A and B.
+# The difference between A and B.
+# The element-wise product of A and B.
+# The matrix product of A and B.
+# The transpose of matrix A.
+# The determinant of matrix A.
+
 import numpy as np
 
 # random matrices A and B between 1 and 10

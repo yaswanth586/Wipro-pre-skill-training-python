@@ -1,3 +1,5 @@
+# Use Python's re module to find all occurrences of the word "Python" in a given text.
+
 import re
 
 def find_python_occurrences(text):

@@ -1,3 +1,14 @@
+# Descriptive Statistics with NumPy and SciPy
+#
+# Create a dataset with 20 random values between 1 and 100.
+# Compute the following statistics for the dataset:
+# Mean
+# Median
+# Standard deviation
+# Variance
+# Skewness
+# Kurtosis
+
 import numpy as np
 from scipy import stats
 
